@@ -1,0 +1,26 @@
+{
+  "name": "chartheory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyleavb/ChartTheory.git"
+  },
+  "author": "Kyle Van Bergen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyleavb/ChartTheory/issues"
+  },
+  "homepage": "https://github.com/kyleavb/ChartTheory#readme",
+  "dependencies": {
+    "concurrently": "^3.6.1",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3"
+  }
+}
